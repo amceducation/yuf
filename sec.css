@@ -1,0 +1,118 @@
+.container{
+    
+    .mininav{
+        display: flex;
+        justify-content: start;
+        gap: 80px;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .mainnav{
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        a{
+            text-decoration: none;
+            font-size: 25px;
+            
+        }
+          
+    }
+    .text{
+        display: flex;
+        justify-content: space-around;
+    }
+    .text1{
+        font-size: 15px;
+        width: 20%;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        h2{
+            color: aqua;
+        }
+       
+    }
+    .text2{
+        
+        width: 20%;
+         font-family: Arial, Helvetica, sans-serif;
+         
+        a{
+            font-size: 30px;
+            border: 1px solid blue;
+            border-radius: 10px;
+            background-color: aqua;
+            color: blanchedalmond;
+        }
+        h2{
+            font-size: 20px;
+            justify-content: center;
+           color: blueviolet;
+           border-bottom: 1px solid blue;
+
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+     .text3{
+        
+        width: 20%;
+         font-family: Arial, Helvetica, sans-serif;
+         
+        a{
+            font-size: 30px;
+            border: 1px solid blue;
+            border-radius: 10px;
+            background-color: aqua;
+            color: blanchedalmond;
+        }
+        h2{
+            font-size: 20px;
+            color: blue;
+            border-bottom: 1px solid blue;
+        }
+        p{
+            font-size: 15px;
+            
+        }
+    }
+    .me{
+         
+            font-size: 20px;
+            color: darkblue;
+            border-bottom: 1px sSolid blue;
+            gap: 20px;
+        
+    }
+    .next{
+        display: flex;
+         gap: 20px;
+         justify-content: space-evenly;
+         height: 200px;
+}
+       .footer1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100; 
+        border: 1px solid black;
+        height: 50%;
+        background-color: gray;
+        color: white;
+        justify-content: center;
+        button{
+            background-color: aqua;
+            color: aliceblue;
+            width: 150px;
+            height: 50px;
+        }
+        p{
+            font size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+       }
+
+
+}
